@@ -1,3 +1,10 @@
+console.log('welcome to weather App');
+console.log('use these commands to use the functionality of weather app:');
+console.log('1. To Add address: node app.js -a "your address or zip code" or node app.js --address "your address or zip code");                                                                                  
+console.log('------------------------------------------------');
+console.log('starting app....');
+
+
 const yargs=require('yargs');
 
 const geocode=require('./geocode/geocode.js');
